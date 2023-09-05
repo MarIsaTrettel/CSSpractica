@@ -4,6 +4,14 @@ body {
     padding: 0;
 }
 
+/* .material-symbols {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+} */
+
 nav {
     background-color: black;
     color: white;
@@ -24,7 +32,8 @@ nav .mobile .header{
 
 nav .mobile .header .more button{
      border: none;
-     background-color: royalblue;
+     background-color: black;
+     color: white;
      padding: 10px;
      cursor: pointer
 }
@@ -81,7 +90,7 @@ nav .desktop .secondary.mini {
         background-color: black;
         position: absolute;
         display: none;
-        width: 200px;
+        width: 100px;
         right: 0;
     }
 
@@ -90,7 +99,7 @@ nav .desktop .secondary.mini {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 
     nav .desktop{
         display: none;
