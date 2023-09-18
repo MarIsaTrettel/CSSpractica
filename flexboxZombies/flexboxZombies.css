@@ -1,0 +1,42 @@
+.terreno {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+.crossbow {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.target:nth-of-type(2) {
+    align-self: flex-end;
+}
+
+.target {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+
+}
+
+.target2 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+
+}
+
+.crossbow2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.target2:nth-of-type(3) {
+    align-self: flex-start;
+}
