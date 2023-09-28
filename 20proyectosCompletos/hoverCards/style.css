@@ -9,3 +9,11 @@ body {
     width: 100%;
     padding: 50px;
 }
+
+.cards .card {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
