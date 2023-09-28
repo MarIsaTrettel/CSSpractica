@@ -28,10 +28,17 @@ body {
     color: yellow;
     text-decoration: none;
     font-weight: bold;
-    
 }
 
 .cards .card a:hover{
     color: orange;
+}
 
+.cards .card .header {
+    flex: 1;
+}
+
+.cards .card:hover {
+    margin-right: 80px;
+    transform: rotate(3deg) translateY(-15px);
 }
