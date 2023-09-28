@@ -22,6 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     transition: all .3s ease;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3), -4px 0 10px rgba(0, 0, 0, 0.2), -5px 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .cards .card a {
@@ -56,6 +57,7 @@ body {
     margin-left:-100px;
 }
 
-.element-1:hover {
+.element-1:hover,
+.element-2:hover {
     margin-left: -130px;
 }
