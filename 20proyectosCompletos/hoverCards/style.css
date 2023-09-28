@@ -51,3 +51,7 @@ body {
 .cards .card .header .title {
     font-size: 28px;
 }
+
+.cards .card[class*="element"]{
+    margin-left:-100px;
+}
