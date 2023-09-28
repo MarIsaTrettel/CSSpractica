@@ -55,3 +55,7 @@ body {
 .cards .card[class*="element"]{
     margin-left:-100px;
 }
+
+.element-1:hover {
+    margin-left: -130px;
+}
