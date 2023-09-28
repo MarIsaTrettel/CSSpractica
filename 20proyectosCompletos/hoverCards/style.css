@@ -42,3 +42,12 @@ body {
     margin-right: 80px;
     transform: rotate(3deg) translateY(-15px);
 }
+
+.cards .card .header .date {
+    padding: 10px 0;
+
+}
+
+.cards .card .header .title {
+    font-size: 28px;
+}
