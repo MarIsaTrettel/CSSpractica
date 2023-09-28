@@ -114,3 +114,16 @@ nav .desktop .secondary.mini {
     }
     
 }
+
+@media screen and (max-width: 500px) {
+
+    nav .desktop{
+        display: none;
+
+    }
+
+    nav .mobile{
+        display: block;
+    }
+    
+}
