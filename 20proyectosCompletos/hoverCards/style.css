@@ -23,3 +23,15 @@ body {
     flex-direction: column;
     transition: all .3s ease;
 }
+
+.cards .card a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.cards .card a:hover{
+    color: orange;
+
+}
