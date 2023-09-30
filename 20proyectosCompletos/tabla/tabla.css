@@ -14,8 +14,13 @@ table{
 td, th{
     border: solid 1px #ccc;
     padding: 5px;
+    text-align: center;
 }
 
 tr:nth-child(even){
     background-color: #ddd;
+}
+
+tbody tr:hover{
+    background-color: aqua;
 }
