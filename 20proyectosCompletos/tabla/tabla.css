@@ -18,7 +18,7 @@ td, th{
 }
 
 tr:nth-child(even){
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 tbody tr:hover{
@@ -26,8 +26,13 @@ tbody tr:hover{
 }
 
 thead{
-    background-color: black;
+    background-color: #333232;
     color: white;
     position: sticky;
     top: 0;
+}
+
+tfoot{
+    background-color: #333232;
+    color: rgb(254, 254, 254);
 }
