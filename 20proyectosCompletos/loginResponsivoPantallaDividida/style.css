@@ -19,3 +19,11 @@ body{
     align-items: center;
 }
 
+.form-container .login-container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-container .login-container > h2{
+    
+}
