@@ -25,5 +25,12 @@ body{
 }
 
 .form-container .login-container > h2{
-    
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form-container .login-container > p,
+.form-container .login-container > span{
+    text-align: center;
+    color: #555;
 }
