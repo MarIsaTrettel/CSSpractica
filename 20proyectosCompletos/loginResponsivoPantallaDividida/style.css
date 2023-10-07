@@ -49,3 +49,7 @@ body{
     border: solid 1px #ccc;
     border-radius: 5px;
 }
+
+.form-container .login-container input.input:focus{
+    outline: solid 1px rgb(0, 153, 255);
+}
