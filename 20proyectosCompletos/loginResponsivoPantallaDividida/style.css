@@ -53,3 +53,9 @@ body{
 .form-container .login-container input.input:focus{
     outline: solid 1px rgb(0, 153, 255);
 }
+
+.form-container .login-container .options{
+    display: flex;
+    justify-content: space-between;
+
+}
