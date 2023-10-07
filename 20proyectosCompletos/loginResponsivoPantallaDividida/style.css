@@ -69,3 +69,11 @@ body{
     color: rgb(0, 100, 255);
     text-decoration: underline;
 }
+
+.btn{
+    border: none;
+    padding: 15px 0px;
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+}
