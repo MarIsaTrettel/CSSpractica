@@ -40,3 +40,12 @@ body{
     font-weight: bold;
     padding: 5px 0;
 }
+
+.form-container .login-container input.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
