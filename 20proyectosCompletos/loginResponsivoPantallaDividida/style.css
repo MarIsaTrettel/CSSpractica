@@ -57,5 +57,15 @@ body{
 .form-container .login-container .options{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
 
+.form-container a{
+    color: rgb(0, 153, 255);
+    text-decoration:none;
+}
+
+.form-container a:hover{
+    color: rgb(0, 100, 255);
+    text-decoration: underline;
 }
