@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.text {
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    box-shadow: 0 0 15px #03e914, 0 0 25px #03e914,
+        0 0 35px #03e914, 0 0 110px #03e914;
+    width: 280px;
+    background-color: #17de24;
+    padding: 10px;
+    margin: 150px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
