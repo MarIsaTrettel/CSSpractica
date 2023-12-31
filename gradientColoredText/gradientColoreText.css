@@ -1,0 +1,8 @@
+.text {
+    background: linear-gradient(to right, rgb(0, 16, 253), #0cea95 25%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 130px;
+    font-weight: bold
+};
